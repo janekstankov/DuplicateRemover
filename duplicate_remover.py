@@ -14,7 +14,6 @@ clear = lambda: os.system('cls')
 root = Tk()
 root.withdraw()
 
-ctypes.windll.kernel32.SetConsoleTitleW('Duplicate Remover by Xubiz#0001 - Welcome!')
 print("Welcome in duplicate remover!")
 print("\n")
 time.sleep(2)
@@ -72,7 +71,6 @@ with open (f'results({czas}).txt', 'r') as y:
         lns += 1
 
 clear()
-ctypes.windll.kernel32.SetConsoleTitleW(f'All duplicates removed | Duplicates Remover by Xubiz#0001')
 print(f'All duplicates have been removed || {duplicates} duplicates in {lines} lines / {lns} lines in file | Time: {t}')
 print('\n')
 input('Press any key to exit')
